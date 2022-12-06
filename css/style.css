@@ -49,8 +49,8 @@ body.parallax {
 nav {
     background-color: #367055;
     margin-bottom: 20px;
-    border-bottom: double 10px #e6e0e0;
-    border-top: double 10px #e6e0e0;
+    border-bottom: double 10px white;
+    border-top: double 10px white;
 }
 
 nav ul{
