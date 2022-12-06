@@ -26,21 +26,16 @@ ol li{
     list-style-type: "\2708";
     list-style-position: inside;
 }
-
-
 header, nav{
     font-family: 'Quicksand';
     font-weight: 300;
 }
-
 fieldset {
     border: solid 2px rgba(44, 10, 10, 0.568);
     border-radius: 4px;
     padding: 5px;
     width: 50%;
 }
-
-
 body.parallax { 
     background-image: url(../images/background.jpeg);
     height: 100%; 
@@ -132,8 +127,6 @@ h1{
     align-self: center;
     font-weight: 600;
 }
-
-
 grid-gallery {
     margin-top: 5px;
     display: grid;
@@ -159,7 +152,6 @@ img.grid {
     -webkit-filter: sepia(100%); 
     filter: sepia(100%);
 }
-
 img.gallery {
     height: 200px;
     width: 200px;
@@ -171,7 +163,6 @@ img.gallery {
 img.grid:nth-child(odd) {
     border: solid 2px #006f40;
 }
-
 img.grid:hover, img.grid:nth-child(even):hover, img.gallery:hover {
     border-radius: 6px;
     -webkit-filter: grayscale(0%); 
@@ -179,7 +170,6 @@ img.grid:hover, img.grid:nth-child(even):hover, img.gallery:hover {
     -webkit-filter: sepia(0%); 
     filter: sepia(0%);
 }
-
 footer{
     display: flex;
     flex-direction: column;
@@ -217,8 +207,6 @@ form {
 section {
     margin: 10px;
 }
-
-
 main{
     min-height: 700px;
     margin-bottom: 10px;
@@ -250,7 +238,7 @@ main{
      }
 }
 
-@keyframes planet {
+@keyframes camera {
     from {
         margin-bottom: 300%;
     }
@@ -263,9 +251,6 @@ main{
         margin-bottom: 306%;
     }
 }
-
-
-
 gallery-flex{
     display: flex;
     flex-wrap: wrap;
@@ -273,22 +258,19 @@ gallery-flex{
     align-items: center;
 }
 
-balloon:active img{
+camera:active img{
     animation: planet;
     animation-duration: 3s;
     animation-iteration-count: 500;
     width:200px;
     z-index: 999;
-    
 }
-
-balloon{
+camera{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
 }
-
 @media (min-width:801px)  {
     grid-gallery {
         margin-top: 15px;;
@@ -323,7 +305,6 @@ balloon{
         align-content: flex-end;
         text-align: center;
     }
-    
 }
 @media (min-width:1025px)  {
     grid-gallery {
